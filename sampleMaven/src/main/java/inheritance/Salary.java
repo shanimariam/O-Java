@@ -21,6 +21,7 @@ class user
 
         System.out.print("Enter Bonus: ");
         bonus = sc.nextDouble();
+        sc.close();
     }
 }
 class Calculator extends user //calculate class, to get the basic pay extend the class
