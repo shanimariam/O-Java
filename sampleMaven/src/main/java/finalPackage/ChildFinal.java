@@ -2,7 +2,7 @@ package finalPackage;
 
 public class ChildFinal  extends Program1
 { // cannot create a child for final parent
-	public final void display()
+	//public final void display()
 	{
 		System.out.println(age);
 	}
